@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork 
+-I.\RTE\_SSL_Ctrl_v13
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IDevice\Include
+--pd "__UVISION_VERSION SETA 525"
+--list .\startup_stm32f4xx.lst --xref -o .\startup_stm32f4xx.o --depend .\startup_stm32f4xx.d "..\src\startup_stm32f4xx.s"
